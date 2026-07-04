@@ -1,0 +1,25 @@
+FINANCEPLUS EMAIL AZIENDA STREAMLIT PRO
+
+1) INSTALLAZIONE
+Apri il prompt dei comandi nella cartella estratta e lancia:
+
+pip install -r requirements_email_azienda_streamlit.txt
+
+2) AVVIO
+streamlit run FinancePlus_Email_Azienda_Streamlit_PRO.py
+
+3) FUNZIONI PRINCIPALI
+- CERCA AZIENDA: scrivi il nome azienda e cerca nelle email.
+- SCARICA TUTTO: archivia tutte le email e allegati riferiti all'azienda.
+- VEDI TUTTO: visualizza email, allegati, anteprima e sintesi.
+- SCARICA SELEZIONATI: scarica solo email o allegati selezionati.
+- PDF MAIL: crea un PDF della mail con mittente, data, oggetto, contenuto e allegati.
+- ARCHIVIO: MITTENTE / AZIENDA / file diretti, senza anno e mese.
+
+4) NOMI FILE
+Esempio:
+bilancio2025.pdf -> bilancio2025_06_MAGGIO_2026.pdf
+MAIL -> MAIL_06_MAGGIO_2026.pdf
+
+5) GMAIL
+Per Gmail usare una App Password e verificare che IMAP sia attivo.
